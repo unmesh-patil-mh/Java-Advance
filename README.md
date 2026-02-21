@@ -56,7 +56,7 @@ mysql -u root -p
 ## 🎯 Why JDBC in Advanced Java?
 1. Used in backend development
 2. Required for enterprise applications
-3. Base technology behind:
----Hibernate
----Spring JDBC
----JPA
+3. Base technology behind: <br>
+   Hibernate <br>
+   Spring JDBC <br>
+   JPA <br>
