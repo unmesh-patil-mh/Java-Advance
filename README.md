@@ -14,3 +14,12 @@ It performs database operations such as Create, Read, Update, and Delete (CRUD) 
 java -version
 javac -version
 ```
+
+## 🔹 Step 2: Install Eclipse IDE
+1. Download Eclipse IDE for Java Developers.
+2. Install Eclipse.
+3. Launch Eclipse and select workspace.
+4. Create a new project:
+```
+File → New → Java Project
+```
