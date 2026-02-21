@@ -23,3 +23,22 @@ javac -version
 ```
 File → New → Java Project
 ```
+
+## 🔹 Step 3: Install MySQL
+1. Install MySQL Server.
+2. Create a database:
+```
+CREATE DATABASE testdb;
+```
+3. Verify MySQL login:
+```
+mysql -u root -p
+```
+
+## 🔹 Step 4: Add MySQL Connector (JDBC Driver)
+1. Download mysql-connector-j.jar.
+2. In Eclipse:
+3. Right click project
+4. Build Path → Configure Build Path
+5. Add External JARs
+6. Select the connector JAR
