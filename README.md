@@ -60,3 +60,45 @@ mysql -u root -p
    Hibernate <br>
    Spring JDBC <br>
    JPA <br>
+
+## 3️⃣ JDBC Architecture
+## 🔄 JDBC Flow Steps
+1. Load Driver
+2. Establish Connection
+3. Create Statement
+4. Execute Query
+5. Process Result
+6. Close Connection
+
+## 4️⃣ JDBC Connection Example (Java + MySQL)
+```
+import java.sql.*;
+
+public class MySQLConnection {
+    public static void main(String[] args) {
+        try {
+            // 1. Load Driver (Optional in newer versions)
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            // 2. Create Connection
+            Connection con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/testdb",
+                "root",
+                "password"
+            );
+
+            System.out.println("Connected Successfully!");
+
+            // 3. Close Connection
+            con.close();
+
+        } catch(Exception e) {
+            System.out.println(e);
+        }
+    }
+}
+```
+
+## 📌 Conclusion
+This project demonstrates practical implementation of Advanced Java Database Connectivity using JDBC and MySQL, which is essential for backend and enterprise-level Java development.
+
