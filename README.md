@@ -42,3 +42,21 @@ mysql -u root -p
 4. Build Path → Configure Build Path
 5. Add External JARs
 6. Select the connector JAR
+
+## 2️⃣ Why Use JDBC?
+## ✅ Advantages of JDBC
+1. Platform Independent
+2. Supports Multiple Databases
+3. Secure Database Connection
+4. Prevents SQL Injection (using PreparedStatement)
+5. Supports Transactions
+6. Easy CRUD Operations
+7. Part of Java Standard Library
+
+## 🎯 Why JDBC in Advanced Java?
+1. Used in backend development
+2. Required for enterprise applications
+3. Base technology behind:
+---Hibernate
+---Spring JDBC
+---JPA
